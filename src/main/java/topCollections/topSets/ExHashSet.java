@@ -1,4 +1,4 @@
-package topSets;
+package topCollections.topSets;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 

@@ -1,8 +1,6 @@
-package topArrayList;
+package topCollections.topList.topArrayList;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
 
 public class EmpDetails{
     private String name;

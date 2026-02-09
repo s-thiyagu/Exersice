@@ -1,4 +1,4 @@
-package topArrayList;
+package topCollections.topList.topArrayList;
 
 import java.util.ArrayList;
 
