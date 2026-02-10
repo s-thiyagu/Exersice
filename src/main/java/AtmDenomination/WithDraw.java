@@ -10,11 +10,12 @@ public class WithDraw {
     static void main() {
 
     }
-    static void withDraw(int amount, User cus, LinkedHashMap<Integer,Integer> curr) {
+
+    static void withDraw(int amount, User cus, LinkedHashMap<Integer, Integer> curr) {
         HashMap<Integer, Integer> user = new HashMap<>();
         int balance = cus.getBankBalance();
-        int atmAmount= cus.getAtmAmount();
-        cus.setAtmAmount(atmAmount-amount);
+        int atmAmount = cus.getAtmAmount();
+        cus.setAtmAmount(atmAmount - amount);
         if (atmAmount >= amount) {
             if (balance < amount) {
                 try {
@@ -37,22 +38,20 @@ public class WithDraw {
                 }
             }
             System.out.println(curr);
-            for(Map.Entry<Integer,Integer> e: user.entrySet()){
+            for (Map.Entry<Integer, Integer> e : user.entrySet()) {
                 if (e.getValue() > 0) {
-                    System.out.println(e.getKey()+" -> "+e.getValue());
+                    System.out.println(e.getKey() + " -> " + e.getValue());
                 }
             }
 
-        }
-        else{
-            try{
+        } else {
+            try {
                 throw new InvalidInput("WithDraw is not successFull");
-            }
-            catch(Exception e){
-                l[[p[]]]
+            } catch (Exception e) {
                 e.printStackTrace();
+
+
             }
         }
     }
 }
-
