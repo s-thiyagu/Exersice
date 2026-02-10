@@ -49,8 +49,10 @@ public class WithDraw {
                 throw new InvalidInput("WithDraw is not successFull");
             }
             catch(Exception e){
+                l[[p[]]]
                 e.printStackTrace();
             }
         }
     }
 }
+
