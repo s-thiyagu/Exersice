@@ -1,6 +1,6 @@
 package atm.excep;
 
-public class Nobalance extends RuntimeException {
+public class Nobalance extends Exception {
     @Override
     public String getMessage() {
         return "Insufficient Balance";
