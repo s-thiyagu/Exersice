@@ -1,6 +1,7 @@
 package topCollections.topList.topArrayList;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Ex1ArrayList {
     static void main(String[] args) {
@@ -18,5 +19,6 @@ public class Ex1ArrayList {
         System.out.println(arr1);
         arr1.add("c");
         System.out.println(arr1);
+        Iterator<String> it = arr1.iterator();
     }
 }

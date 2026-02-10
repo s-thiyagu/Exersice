@@ -1,5 +1,7 @@
 package polymorphism;
 
+import java.util.Iterator;
+
 class ExampleClass{
     void hi(){
         System.out.println("Iam Example Class");
